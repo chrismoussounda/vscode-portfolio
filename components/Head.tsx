@@ -10,19 +10,22 @@ const CustomHead = ({ title }: CustomHeadProps) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Christoffert Moussounda is an avid full stack web developer building websites and applications you'd love to use"
+        content="Christoffert Moussounda is a Technical Lead & Full Stack Developer building robust web applications with React and Node.js"
       />
       <meta
         name="keywords"
-        content="Christoffert Moussounda, nitin, ranganath, web developer portfolio, nitin web developer, nitin developer, mern stack, Christoffert Moussounda portfolio, vscode-portfolio"
+        content="Christoffert Moussounda, Technical Lead, Full Stack Developer, React, Node.js, TypeScript, JavaScript, Software Engineer, Congo, Pointe-Noire, Ginov"
       />
-      <meta property="og:title" content="Christoffert Moussounda's Portfolio" />
+      <meta
+        property="og:title"
+        content="Christoffert Moussounda - Full Stack Developer"
+      />
       <meta
         property="og:description"
-        content="A full-stack developer building websites that you'd like to use."
+        content="A passionate Full Stack Developer building modern web applications that deliver exceptional user experiences"
       />
-      <meta property="og:image" content="https://imgur.com/4zi5KkQ.png" />
-      <meta property="og:url" content="https://vscode-portfolio.vercel.app" />
+      <meta property="og:image" content="/images/chrisoffert-moussounda.jpg" />
+      <meta property="og:url" content="https://chrismoussounda.vercel.app" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
   );

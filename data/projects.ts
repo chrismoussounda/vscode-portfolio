@@ -26,7 +26,7 @@ export const projects: Project[] = [
   {
     title: 'Daxium Connect',
     description:
-      'Collaborated on front-end development using React, improving client interactions with forms and connectors.',
+      'An application that aims to complement Daxium Air by providing Daxium customers with connectors that can interact with Daxium Air forms.',
     logo: '/logos/daxium-connect-logo.png',
     link: '',
     slug: 'daxium-connect',
@@ -36,7 +36,7 @@ export const projects: Project[] = [
     description:
       'A note-taking app with rich text documents that can be published with a public URL for others to read.',
     logo: '/logos/just-notion-logo.svg',
-    link: '',
+    link: 'https://just-notion.web.app',
     slug: 'just-notion',
   },
 ];

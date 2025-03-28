@@ -9,27 +9,33 @@ interface ProjectCardProps {
 }
 
 const ProjectCard = ({ project }: ProjectCardProps) => {
-  return (
+  const content = (
+    <div className={styles.content}>
+      <div className={styles.logoWrapper}>
+        <Image
+          src={project.logo}
+          alt={`${project.title} logo`}
+          width={24}
+          height={24}
+          className={styles.logo}
+        />
+      </div>
+      <h3 className={styles.title}>{project.title}</h3>
+      <p className={styles.description}>{project.description}</p>
+    </div>
+  );
+
+  return project.link ? (
     <a
       href={project.link}
       target="_blank"
       rel="noopener noreferrer"
       className={styles.card}
     >
-      <div className={styles.content}>
-        <div className={styles.logoWrapper}>
-          <Image
-            src={project.logo}
-            alt={`${project.title} logo`}
-            width={24}
-            height={24}
-            className={styles.logo}
-          />
-        </div>
-        <h3 className={styles.title}>{project.title}</h3>
-        <p className={styles.description}>{project.description}</p>
-      </div>
+      {content}
     </a>
+  ) : (
+    <div className={styles.card}>{content}</div>
   );
 };
 
