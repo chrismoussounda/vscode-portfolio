@@ -8,35 +8,35 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'Driwwwle',
+    title: 'Qwisti',
     description:
-      'Discover creative websites and developers. A portal for you to share your projects.',
-    logo: '/logos/driwwwle.svg',
-    link: 'https://github.com/itsnitinr/driwwwle',
-    slug: 'driwwwle',
+      'Led full-stack development of an application testing streamlining tool, built with React and Node.js.',
+    logo: '/logos/qwisti-logo.svg',
+    link: '',
+    slug: 'qwisti',
   },
   {
-    title: 'VSCode Portfolio',
+    title: 'Copileo',
     description:
-      'A Visual Studio Code themed developer portfolio built with Next.js and CSS Modules.',
-    logo: '/logos/vsc.svg',
-    link: 'https://github.com/itsnitinr/vscode-portfolio',
-    slug: 'vscode-portfolio',
+      'A project management tool for steering committees. Led backend development, modernized codebase, and improved performance.',
+    logo: '/logos/copileo-logo.png',
+    link: '',
+    slug: 'copileo',
   },
   {
-    title: 'Subtrackt',
+    title: 'Daxium Connect',
     description:
-      'A simple and elegant way to track your subscriptions and save money.',
-    logo: '/logos/subtrackt.svg',
-    link: 'https://github.com/itsnitinr/subtrackt',
-    slug: 'subtrackt',
+      'Collaborated on front-end development using React, improving client interactions with forms and connectors.',
+    logo: '/logos/daxium-connect-logo.png',
+    link: '',
+    slug: 'daxium-connect',
   },
   {
-    title: 'Coolify Deployments',
+    title: 'Just Notion',
     description:
-      'VSCode extension to track and deploy your Coolify applications.',
-    logo: '/logos/coolify.svg',
-    link: 'https://github.com/itsnitinr/coolify-vscode-extension',
-    slug: 'coolify-vscode-extension',
+      'A note-taking app with rich text documents that can be published with a public URL for others to read.',
+    logo: '/logos/just-notion-logo.svg',
+    link: '',
+    slug: 'just-notion',
   },
 ];

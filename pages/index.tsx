@@ -14,14 +14,40 @@ export default function HomePage() {
       type: 'variable',
     },
     { code: '  const developerInfo = {', type: 'variable' },
-    { code: "    name: 'Nitin Ranganath',", type: 'array-item' },
-    { code: "    role: 'Full Stack Developer',", type: 'array-item' },
-    { code: "    bio: 'Building modern web experiences'", type: 'array-item' },
+    { code: "    name: 'Christoffert Moussounda',", type: 'array-item' },
+    {
+      code: "    role: 'Technical Lead & Full Stack Developer',",
+      type: 'array-item',
+    },
+    {
+      code: "    bio: 'Passionate software engineer leading cross-functional",
+      type: 'array-item',
+    },
+    {
+      code: '    leading cross-functional teams at Ginov. Specializing in',
+      type: 'array-item',
+    },
+    {
+      code: '    building scalable solutions with React and Node.js, focusing',
+      type: 'array-item',
+    },
+    {
+      code: '    now on microservices architecture and high-performance systems.',
+      type: 'array-item',
+    },
+    {
+      code: '    experienced in both front-end and back-end development with a',
+      type: 'array-item',
+    },
+    {
+      code: "    strong emphasis on code quality and team collaboration.'",
+      type: 'array-item',
+    },
     { code: '  };', type: 'array-end' },
     { code: '', type: 'blank' },
     { code: '  useEffect(() => {', type: 'nested-function' },
     {
-      code: '    document.title = `${developerInfo.name} | Portfolio`;',
+      code: '    document.title = `${developerInfo.name} | Home`;',
       type: 'return',
     },
     { code: '    setIsLoaded(true);', type: 'function-call' },
@@ -46,7 +72,7 @@ export default function HomePage() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setActiveLineIndex((prev) => (prev + 1) % codeLines.length);
+      setActiveLineIndex(prev => (prev + 1) % codeLines.length);
     }, 2000);
 
     return () => clearInterval(interval);
@@ -91,14 +117,20 @@ export default function HomePage() {
 
         <div className={styles.infoSection}>
           <h1 className={styles.developerName}>
-            Nitin <span className={styles.accentText}>Ranganath</span>
+            Christoffert <span className={styles.accentText}>Moussounda</span>
           </h1>
 
-          <div className={styles.developerRole}>Full Stack Web Developer</div>
+          <div className={styles.developerRole}>
+            Technical Lead & Full Stack Developer
+          </div>
 
           <p className={styles.bio}>
-            I build elegant, responsive web applications with modern
-            technologies. Focused on clean code and intuitive user experiences.
+            Passionate software engineer leading cross-functional teams at
+            Ginov. Specializing in building scalable solutions with React and
+            Node.js, focusing now on microservices architecture and
+            high-performance systems. Experienced in both front-end and back-end
+            development with a strong emphasis on code quality and team
+            collaboration.
           </p>
 
           <div className={styles.actionLinks}>

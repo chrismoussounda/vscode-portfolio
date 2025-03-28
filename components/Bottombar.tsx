@@ -8,6 +8,8 @@ import {
 import { SiNextdotjs } from 'react-icons/si';
 
 import styles from '@/styles/Bottombar.module.css';
+import { CgGitFork } from 'react-icons/cg';
+import Link from 'next/link';
 
 const Bottombar = () => {
   return (
@@ -30,6 +32,13 @@ const Bottombar = () => {
         </div>
       </div>
       <div className={styles.container}>
+        <Link
+          href="https://github.com/itsnitinr/vscode-portfolio"
+          className={styles.section}
+        >
+          <CgGitFork className={styles.icon} />
+          <p>Forked from itsnitinr/vscode-portfolio</p>
+        </Link>
         <div className={styles.section}>
           <SiNextdotjs className={styles.icon} />
           <p>Powered by Next.js</p>

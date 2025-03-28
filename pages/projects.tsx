@@ -13,7 +13,7 @@ const ProjectsPage = () => {
       </p>
 
       <div className={styles.container}>
-        {projects.map((project) => (
+        {projects.map(project => (
           <ProjectCard key={project.slug} project={project} />
         ))}
       </div>

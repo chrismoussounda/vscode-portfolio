@@ -4,54 +4,73 @@ const AboutPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Nitin Ranganath</h1>
-        <div className={styles.subtitle}>Software Engineer</div>
+        <h1 className={styles.title}>Christoffert MOUSSOUNDA</h1>
+        <div className={styles.subtitle}>
+          Technical Lead & Full Stack Developer
+        </div>
 
         <div className={styles.aboutContent}>
           <section className={styles.section}>
             <p className={styles.paragraph}>
-              Hey! I&apos;m a software engineer from Mumbai, India. I primarily
-              work with JavaScript / TypeScript and the React ecosystem.
+              Hey! I'm a Technical Lead from Pointe-Noire, Congo , with a
+              passion for crafting elegant solutions to complex problems. My
+              journey in software engineering has led me from building robust
+              applications to leading cross-functional teams at Ginov.
             </p>
             <p className={styles.paragraph}>
-              I&apos;m focused on frontend development with React, but
-              you&apos;ll also find me working with Node.js, MongoDB and Express
-              while building the backend for my personal projects.
+              With a foundation in with an academic background in computer
+              science and continuous learning through technical certifications,
+              I've grown into a full-stack role where I architect solutions
+              using modern technologies. My current focus is on microservices
+              architecture and event-driven systems, while mentoring others and
+              fostering a culture of continuous learning.
             </p>
           </section>
 
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Experience</h2>
             <p className={styles.paragraph}>
-              Currently at <span className={styles.highlight}>Tessact</span> as
-              Software Engineer 2, working with a lean team of 4 frontend
-              engineers to build a next-gen video creation suite for the people
-              of video.
+              Currently at <span className={styles.highlight}>Ginov</span> as
+              Technical Lead, where I guide architecture and oversee full-stack
+              development. I lead a cross-functional team, implementing
+              microservices architecture and integrating Kafka for improved
+              system performance.
             </p>
             <p className={styles.paragraph}>
-              I&apos;ve been leading the development efforts for bringing
-              collaborative video reviewing and editing to the platform. I also
-              maintain our in-house component library, icon library and website.
+              Previously as a Full Stack Developer at Ginov, I worked on
+              modernizing legacy systems and developing new applications like
+              Copileo, Daxium Connect, and Qwisti, focusing on clean, scalable
+              code and best practices.
             </p>
           </section>
 
           <section className={styles.section}>
-            <h2 className={styles.sectionTitle}>Writing</h2>
+            <h2 className={styles.sectionTitle}>Skills & Technologies</h2>
             <p className={styles.paragraph}>
-              I&apos;ve had the pleasure of writing for some amazing
-              publications like{' '}
-              <span className={styles.highlight}>100ms Blog</span>,{' '}
-              <span className={styles.highlight}>LogRocket Blog</span>,{' '}
-              <span className={styles.highlight}>DEV.to</span> and more as a
-              freelance technical author.
+              My technical toolkit includes{' '}
+              <span className={styles.highlight}>TypeScript</span>,{' '}
+              <span className={styles.highlight}>React</span>,{' '}
+              <span className={styles.highlight}>Vue.js</span>,{' '}
+              <span className={styles.highlight}>Node.js</span>,{' '}
+              <span className={styles.highlight}>Express</span>,{' '}
+              <span className={styles.highlight}>Next.js</span>,{' '}
+              <span className={styles.highlight}>NestJS</span>,{' '}
+              <span className={styles.highlight}>Tailwind CSS</span>, and{' '}
+              <span className={styles.highlight}>SASS</span>. I'm experienced
+              with both <span className={styles.highlight}>SQL</span> and{' '}
+              <span className={styles.highlight}>NoSQL</span> databases, and
+              comfortable with Docker containerization. On the back-end, I have
+              expertise in building RESTful APIs, authentication systems, and
+              scalable architectures.
             </p>
           </section>
 
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Beyond Code</h2>
             <p className={styles.paragraph}>
-              Aside from programming and writing, I like to read a good
-              dystopian novel, listen to calm piano music or just laze around.
+              When I'm not coding, you'll find me exploring new technologies,
+              watching anime, or playing basketball. I'm also passionate about
+              mentoring junior developers and contributing to team growth.
             </p>
           </section>
         </div>
